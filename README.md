@@ -9,8 +9,10 @@ Example for our paper "*Bayesian integrative detection of structural variations 
 
 #### Step 2: Bayesian integration modeling
 
-  User defined values for priors, boundaries, initial values, and so on, and run the Bayesian model via the R programming `BayesianModel.R`
+  Users defined values for priors, boundaries, initial values, and so on. Then run the Bayesian model via the R programming `BayesianModel.R`
 
 #### Step 3: FDR control
 
-  After the MCMC step get converged, output the results given any thresholds. Default setting in `BayesianModel.R`.
+  After the MCMC step get converged, output the results at any specific thresholds. 
+  
+  Default setting in `BayesianModel.R` will output three levels: Model-0.950, Model-0.990, and Model-0.999, with FDR at 0.05, 0.01, and 0.001, respectively.
