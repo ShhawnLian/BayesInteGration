@@ -5,11 +5,11 @@ Example for our paper "*Bayesian integrative detection of structural variations 
 
   We required the VCF files from different detection tools and merged them into 'Data/merged.csv' files.
 
-  Then run python file `index.py` to generated the indexed matrix $\boldsymbol{Y}$ and the score matrix $\boldsymbol{S}$.
+  Then run python file `index.py` to generate the indexed matrix $\boldsymbol{Y}$ and the score matrix $\boldsymbol{S}$.
 
 #### Step 2: Bayesian integration modeling
 
-  Users defined values for priors, boundaries, initial values, and so on. Then run the Bayesian model via the R file `BayesianModel.R`
+  Users defined values for hyperparameters, boundaries, initial values, and so on. Then run the R file `BayesianModel.R`
 
 #### Step 3: FDR control
 
