@@ -2,9 +2,9 @@
 An illustrative example for our paper "*Bayesian integrative detection of structural variations with FDR control*"
 
 #### Step 1: Obtain the SV calls from individual tools 
-  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv` files.
+  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv` files. 
   
-  | Tool | Available Quality Scores | Record in VCF files |
+  | Tool | Available Quality Scores | Record in VCF files | 
   |----------|----------|----------|
   | [cuteSV](https://github.com/tjiangHIT/cuteSV) | None | None |
   | [pbsv](https://github.com/PacificBiosciences/pbsv) | None | None |
