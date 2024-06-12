@@ -1,7 +1,20 @@
 # BayesInteGration
 Illustrative example for our paper "*Bayesian integrative detection of structural variations with FDR control*"
 
-#### Step 1: Tool-aware merging
+#### Step 1: Obtain the SV calls from individual tools 
+
+  | Tool | Available Quality Scores | Column 3 |
+  |----------|----------|----------|
+  | [cuteSV](https://github.com/tjiangHIT/cuteSV) | None | Cell 3   |
+  | [pbsv](https://github.com/PacificBiosciences/pbsv) | None | Cell 6   |
+  | [Sniffles](https://github.com/fritzsedlazeck/Sniffles) | Mean mapping quality of supporting reads | Cell 9   |
+  | [DeBreak](https://github.com/Maggi-Chen/DeBreak) | Mean mapping quality of supporting reads | Cell 9   |
+  | [SVIM](https://github.com/eldariont/svim) | Scores that accounts for supporting read count, span deviation, and position
+deviation | Cell 9   |
+  | ... | ... | ... |
+
+
+#### Step 2: Tool-aware merging
 
   We required the VCF files from different detection tools and merged them into 'Data/merged.csv' files.
 
