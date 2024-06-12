@@ -1,5 +1,5 @@
 # BayesInteGration
-Example for our paper "*Bayesian integrative detection of structural variations with FDR control*"
+Illustrative example for our paper "*Bayesian integrative detection of structural variations with FDR control*"
 
 #### Step 1: Tool-aware merging
 
