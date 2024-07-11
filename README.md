@@ -17,9 +17,7 @@ An illustrative example for our manuscript "*Bayesian integrative detection of s
 
 #### Step 2: Index the SVs
 
-  We employ a tool-aware merging procedure by running the python file `index.py` to generate the indexed matrix $\boldsymbol{Y}$ and the score matrix $\boldsymbol{S}$.
-
-  `python index.py `
+  We employ a tool-aware merging procedure based on `Data/merged.csv`. Run `python index.py` to generate the indexed matrix $\boldsymbol{Y}$ (`Data/Indexd.csv`), the score matrix $\boldsymbol{S}$ (`Data/Scored.csv`), and the tool-specific information in `Data/IndexSVInfo.csv`
 
 #### Step 3: Bayesian integration modeling
 
