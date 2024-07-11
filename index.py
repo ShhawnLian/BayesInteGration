@@ -141,8 +141,8 @@ for location in range(len(dfs_res)):
         score_matrix.iloc[method_list.index(m), location] = np.mean([tmp_score_involved[i] for i, x in enumerate(tmp_method_involved) if x == m])
 
 
-index_matrix.to_csv('Indexd.csv', sep=',')
-score_matrix.to_csv('Scored.csv', sep=',')
+index_matrix.to_csv('Data/Indexd.csv', sep=',')
+score_matrix.to_csv('Data/Scored.csv', sep=',')
 
 dfs_res = dfs_res.drop(columns=['method_list', 'method_number', 'score_list'])
-dfs_res.to_csv('IndexSVInfo.csv', sep=',', index=False)
+dfs_res.to_csv('Data/IndexSVInfo.csv', sep=',', index=False)
