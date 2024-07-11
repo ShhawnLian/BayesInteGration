@@ -6,7 +6,7 @@ import networkx as nx
 
 Span_loc = 500
 Ratio_len = 1.5
-csv_path = 'merged.csv'
+csv_path = 'Data/merged.csv'
 
 
 def merge(intervals):
