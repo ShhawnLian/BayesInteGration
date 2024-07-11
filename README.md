@@ -21,7 +21,7 @@ An illustrative example for our manuscript "*Bayesian integrative detection of s
 
 #### Step 3: Bayesian integration modeling
 
-  Users defined values for hyperparameters, boundaries, initial values, and so on. Then run the R file `BayesianModel.R`
+  Load the indexed matrix $\boldsymbol{Y}$ and the score matrix $\boldsymbol{S}$. Users defined values for hyperparameters, boundaries, initial values, and so on. Then run the R file `BayesianModel.R`.
 
 #### Step 4: FDR control
 
