@@ -4,7 +4,7 @@ An illustrative example for our manuscript "*Bayesian integrative detection of s
 ## Usage
 
 #### Step 1: Obtain the SV calls from individual tools 
-  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv`. Here, we provide the code in `` that extract the information from the five population SV callers. 
+  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv`. Here, we provide the code in the `vcf2csv` folder that extract the information from the five population SV callers. 
   
   | Tool | Available Quality Scores | Record in VCF files | 
   |----------|----------|----------|
@@ -18,6 +18,8 @@ An illustrative example for our manuscript "*Bayesian integrative detection of s
 #### Step 2: Index the SVs
 
   We employ a tool-aware merging procedure by running the python file `index.py` to generate the indexed matrix $\boldsymbol{Y}$ and the score matrix $\boldsymbol{S}$.
+
+  `python index.py `
 
 #### Step 3: Bayesian integration modeling
 
