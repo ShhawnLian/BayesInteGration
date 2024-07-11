@@ -1,10 +1,10 @@
 # BayesInteGration
-An illustrative example for our paper "*Bayesian integrative detection of structural variations with FDR control*"
+An illustrative example for our manuscript "*Bayesian integrative detection of structural variations with FDR control*"
 
 ## Usage
 
 #### Step 1: Obtain the SV calls from individual tools 
-  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv` files. 
+  We require the variant call format (VCF) files from different detection tools and merged them into `Data/merged.csv`. Here, we provide the code in `` that extract the information from the five population SV callers. 
   
   | Tool | Available Quality Scores | Record in VCF files | 
   |----------|----------|----------|
